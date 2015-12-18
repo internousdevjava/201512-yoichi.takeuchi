@@ -27,11 +27,10 @@ public class KisoKadai2{
 			String b = null;
 			try {
 				b = br.readLine();
-			} catch (IOException e) {
-				// TODO 自動生成された catch ブロック
+			    } catch (IOException e) {
 				e.printStackTrace();
-			}
-			if (chechStringNumber(b)) {
+			     }
+			    if (chechStringNumber(b)) {
 				int t = Integer.parseInt(b);
 				if (ans == t) {
 					System.out.println("正解！★おめでとうございます★");
@@ -42,7 +41,7 @@ public class KisoKadai2{
 					System.out.println("↓もっと下です。↓");
 				}
 			} else {
-				System.out.println("数字にしてください！");i--;
+				System.out.println("半角数字にしてください！");i--;
 				continue;
 			}
 
