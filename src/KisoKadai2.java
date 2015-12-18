@@ -4,14 +4,8 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- *
- */
 
-/**
- * @author internous
- *
- */
+
 public class KisoKadai2{
 
 	/**
